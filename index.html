@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172923">
+<title>Catch them all: Lanzarote</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./assets/icons/atlas.svg">
+<link rel="stylesheet" href="./css/style.css">
+<script type="module" src="./js/app.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="#atlas"><span class="mark">✳</span><span>Catch them all<small id="brandDestination">Lanzarote</small></span></a><nav aria-label="Hlavní navigace"><a href="#atlas">Seznam</a><a href="#map">Mapa</a><a href="#journal">Moje nálezy</a><a href="#stats">Statistiky</a></nav><select id="theme" aria-label="Barevný režim"><option value="auto">Systém</option><option value="light">Světlý</option><option value="dark">Tmavý</option></select></header>
+<main>
+<section class="hero"><div><p id="region"></p><h1 id="destination"></h1><p>Checklist a terénní deník</p></div><div class="hero-progress"><strong id="progressText"></strong><progress id="progress"></progress><small id="heroCredit"></small></div></section>
+<div id="notice" role="status"></div>
+<section id="atlas"><div class="heading"><h2>Seznam organismů</h2><button id="layout" type="button">Kompaktní seznam</button></div><div id="atlasCategories" class="atlas-categories" role="group" aria-label="Kategorie organismů"></div><label class="search">Hledat v seznamu<input type="search" id="query" placeholder="Název, skupina nebo determinační znak"></label><details><summary>Filtry a řazení</summary><div id="filters" class="fields"></div></details><p id="results" role="status"></p><div id="cards" class="cards"></div></section>
+<section id="map" hidden><h2>Mapa výskytů</h2><div id="mapContent"></div></section>
+<section id="journal" hidden><div class="heading"><h2>Moje nálezy</h2><button id="newRecord">Přidat pozorování</button></div><div class="actions"><button id="csv">CSV</button><button id="geojson">GeoJSON</button><button id="backup">Záloha JSON</button><label><input id="includePhotos" type="checkbox" checked> Včetně fotografií</label><label class="button">Obnovit JSON<input id="restore" type="file" accept=".json,application/json" hidden></label></div><div id="records"></div></section>
+<section id="stats" hidden><h2>Statistiky</h2><div id="statistics"></div></section>
+<footer><button id="offline">Připravit atlas offline</button><button id="licenses">Licence fotografií</button><label id="destinationSetting" hidden>Destinace <select id="destinationChoice"></select></label></footer>
+</main>
+<dialog id="detail"><form method="dialog" class="dialog-bar"><button aria-label="Zavřít detail">Zavřít</button></form><div id="detailBody"></div></dialog>
+<dialog id="editor"><form id="recordForm"><h2>Pozorování</h2><div class="fields" id="recordFields"></div><p id="editorInfo" role="status"></p><div class="actions"><button type="submit">Uložit</button><button type="button" id="cancel">Zrušit</button></div></form></dialog>
+</body>
+</html>

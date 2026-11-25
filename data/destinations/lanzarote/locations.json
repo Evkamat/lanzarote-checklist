@@ -1,0 +1,288 @@
+[
+  {
+    "id": "timanfaya",
+    "name": "Timanfaya",
+    "coordinates": [
+      29.014123,
+      -13.780029
+    ],
+    "description": "Lávová pole a sopečné útvary národního parku. Bod označuje chráněné území.",
+    "habitats": [
+      "Lávová pole",
+      "Vulkanická polopoušť"
+    ],
+    "taxa": [],
+    "season": null,
+    "restrictions": "Používejte povolené návštěvnické trasy.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://aguaslanzarote.com/wps/wp-content/uploads/docs/3-normativa/20150518%20TRPHL%20ART%2047.pdf"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.gobiernodecanarias.org/planificacionterritorial/materias/informacion-territorial/enp/lanzarote/"
+      }
+    ],
+    "photo": {
+      "src": "./assets/images/timanfaya.webp",
+      "alt": "Sopečné svahy národního parku Timanfaya",
+      "author": "Siestecita",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Parque_Natural_de_Timanfaya,_Lanzarote,_Espa%C3%B1a.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Parque_Natural_de_Timanfaya%2C_Lanzarote%2C_Espa%C3%B1a.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  },
+  {
+    "id": "janubio",
+    "name": "Salinas de Janubio",
+    "coordinates": [
+      28.936421,
+      -13.823897
+    ],
+    "description": "Pobřežní laguna a sůl získávaná v soustavě nádrží. Vhodné pro sledování vodních ptáků z přístupných míst.",
+    "habitats": [
+      "Saliny",
+      "Slaná laguna"
+    ],
+    "taxa": [
+      "lanz-031",
+      "lanz-032",
+      "lanz-033",
+      "lanz-034"
+    ],
+    "season": "V zimě hledejte zimující bahňáky.",
+    "restrictions": "Respektujte ochranu území a provoz salin.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://aguaslanzarote.com/wps/wp-content/uploads/docs/3-normativa/20150518%20TRPHL%20ART%2047.pdf"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.gobiernodecanarias.org/planificacionterritorial/materias/informacion-territorial/enp/lanzarote/"
+      },
+      {
+        "label": "Zdroj 3",
+        "url": "https://ecoturismo.lanzarotebiosfera.org/en/descubre-las-aves-de-lanzarote/"
+      }
+    ],
+    "photo": {
+      "author": "Axel Cotón Gutiérrez",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Salinas_de_Janubio_%28Lanzarote%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Salinas_de_Janubio_%28Lanzarote%29.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Solné nádrže v Salinas de Janubio",
+      "src": "./assets/images/locations/janubio.webp",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  },
+  {
+    "id": "jameos",
+    "name": "Jameos del Agua",
+    "coordinates": [
+      29.151804,
+      -13.425914
+    ],
+    "description": "Lávový tunel s podzemní lagunou a jameítem. Bod označuje chráněné území.",
+    "habitats": [
+      "Lávové tunely",
+      "Podzemní laguna"
+    ],
+    "taxa": [
+      "lanz-051"
+    ],
+    "season": null,
+    "restrictions": "Pozorujte z návštěvnické trasy a respektujte pokyny provozovatele.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://aguaslanzarote.com/wps/wp-content/uploads/docs/3-normativa/20150518%20TRPHL%20ART%2047.pdf"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://cactlanzarote.com/en/visit/jameos-del-agua"
+      }
+    ],
+    "photo": {
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Jameos_del_Agua_-_Lanzarote_-07.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jameos_del_Agua_-_Lanzarote_-07.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Západní vstup k jeskynní laguně v Jameos del Agua",
+      "src": "./assets/images/locations/jameos.webp",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  },
+  {
+    "id": "famara",
+    "name": "Famara a El Jable",
+    "coordinates": [
+      29.12561,
+      -13.53704
+    ],
+    "description": "Pobřežní písky pod masivem Famara. Otevřená písčitá krajina pokračuje směrem do El Jable.",
+    "habitats": [
+      "Písčiny",
+      "Polopoušť",
+      "Pobřežní útesy"
+    ],
+    "taxa": [
+      "lanz-022",
+      "lanz-023",
+      "lanz-026"
+    ],
+    "season": null,
+    "restrictions": "Držte se cest a respektujte místní uzávěry.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.gobiernodecanarias.org/planificacionterritorial/materias/informacion-territorial/enp/lanzarote/"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://www.29degreeslanzarote.com/lanzarote-beaches/playa-famara/"
+      }
+    ],
+    "photo": {
+      "author": "Chmee2",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Playa_de_Famara_on_Lanzarote%2C_June_2013_%282%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Playa_de_Famara_on_Lanzarote%2C_June_2013_%282%29.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Pláž Famara na Lanzarote",
+      "src": "./assets/images/locations/famara.webp",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  },
+  {
+    "id": "haria",
+    "name": "Haría",
+    "coordinates": [
+      29.14673,
+      -13.49825
+    ],
+    "description": "Obec v severním údolí Lanzarote se zahradami a palmami.",
+    "habitats": [
+      "Údolí",
+      "Zahrady"
+    ],
+    "taxa": [
+      "lanz-001",
+      "lanz-002",
+      "lanz-028",
+      "lanz-030"
+    ],
+    "season": null,
+    "restrictions": "Nevstupujte na soukromé pozemky.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.wikidata.org/wiki/Q3362476"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://turismolanzarote.com/HARIA/"
+      }
+    ],
+    "photo": {
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Har%C3%ADa_-_Lanzarote_01.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Har%C3%ADa_-_Lanzarote_01.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Údolí Valle de Malpaso s vesnicí Haría",
+      "src": "./assets/images/locations/haria.webp",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  },
+  {
+    "id": "punta",
+    "name": "Punta Mujeres",
+    "coordinates": [
+      29.1427,
+      -13.450629
+    ],
+    "description": "Na lávovém pobřeží jsou přírodní bazény a skalní tůně.",
+    "habitats": [
+      "Přílivové tůně",
+      "Skalnaté pobřeží"
+    ],
+    "taxa": [
+      "lanz-035",
+      "lanz-036",
+      "lanz-038"
+    ],
+    "season": "Pro pozorování tůní volte odliv a klidné moře.",
+    "restrictions": "Pozorujte ze stabilního břehu.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://vtraveler.info/en/objects/1000000225"
+      },
+      {
+        "label": "Zdroj 2",
+        "url": "https://turismolanzarote.com/HARIA/"
+      }
+    ],
+    "photo": {
+      "author": "Wiki05",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Punta_Mujeres%2C_Lanzarote.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Punta_Mujeres%2C_Lanzarote.JPG",
+      "source": "Wikimedia Commons",
+      "alt": "Pobřeží vesnice Punta Mujeres",
+      "src": "./assets/images/locations/punta.webp",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  },
+  {
+    "id": "chica",
+    "name": "Playa Chica",
+    "coordinates": [
+      28.9212,
+      -13.6512
+    ],
+    "description": "Malá pláž u Puerto del Carmen a výchozí místo pro pozorování pobřežní mořské fauny.",
+    "habitats": [
+      "Pobřežní moře",
+      "Skalnaté dno"
+    ],
+    "taxa": [
+      "lanz-045",
+      "lanz-046",
+      "lanz-047",
+      "lanz-048",
+      "lanz-056"
+    ],
+    "season": "Za dobré viditelnosti a klidného moře.",
+    "restrictions": "Ověřte místní podmínky a případná omezení přístupu.",
+    "sources": [
+      {
+        "label": "Zdroj 1",
+        "url": "https://www.visitarelanzarote.it/wp-content/uploads/2026/01/guida-100-spiagge-lanzarote-2026.pdf"
+      }
+    ],
+    "photo": {
+      "author": "Beta15",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Playa_Chica%2C_pto_del_Carmen.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Playa_Chica%2C_pto_del_Carmen.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Playa Chica v Puerto del Carmen z jižního mola",
+      "src": "./assets/images/locations/chica.webp",
+      "modifications": "Zmenšeno a převedeno do WebP; v náhledu oříznuto"
+    }
+  }
+]
